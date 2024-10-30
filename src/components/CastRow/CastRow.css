@@ -1,0 +1,51 @@
+.castRow {
+    background-color: rgb(62, 53, 53);
+    background-color: rgb(30, 30, 30);
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.castRow__images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 20px;
+    justify-content: center;
+}
+
+.castRow__imageContainer {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.castRow__actorImage {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    transition: transform 450ms;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.castRow__actorImage:hover {
+    transform: scale(1.08);
+}
+
+.castRow__actorInfo {
+    margin-top: 10px;
+}
+
+.castRow__actorName {
+    font-size: 1em;
+    color: #ccc;
+    font-weight: bold;
+    margin: 0;
+}
+
+.castRow__actorCharacter {
+    font-size: 0.9em;
+    color: #ccc;
+    margin: 4px 0;
+}

@@ -1,0 +1,21 @@
+.banner {
+    background-color: rgb(62, 53, 53);
+    background-color: rgb(30, 30, 30);
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.banner__left__poster:hover {
+    transform: scale(1.08);
+}
+
+.banner__right__poster:hover {
+    transform: scale(1.08);
+}
+
+
+
+
+
+
+
